@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 70%;
+  margin: 4rem auto;
+  padding: .5rem;
+  border: 1px solid green;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+section {
+  background-color: azure;
+  width: 100%;
+  padding: 1rem;
+}
+
+form {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: begin;
+}
+
+.firstName,
+.lastName,
+.company,
+.jobTitle {
+  display: flex;
+  flex-direction: column;
+  padding: .1rem;
+}
+
+label {
+  margin-top: .7rem;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: .2rem;
+  padding-left: .5rem;
+  color: rgb(142, 136, 136);
+}
+
+#submitBtn {
+  margin: 1.2rem auto 0 auto;
+  width: 50%;
+  padding: .2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* utils classes */
+.red-border {
+  border: 3px solid #f4a1a1;
+}
+
+.green-border {
+  border: 3px solid green;
+}
+
+.present {
+  background-color: #f4a1a1;
+  padding: .2rem;
+  margin-top: .4rem;
+}
